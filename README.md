@@ -45,6 +45,7 @@ order_delivered_customer_date —  время доставки заказа
 order_estimated_delivery_date —  обещанная дата доставки
 
 olist_order_items_dataset.csv —  товарные позиции, входящие в заказы
+
 order_id —  уникальный идентификатор заказа (номер чека)
 
 order_item_id —  идентификатор товара внутри одного заказа
@@ -64,10 +65,17 @@ freight_value —  вес товара
 Уникальные статусы заказов в таблице olist_orders_dataset:
 
 created —  создан
+
 approved —  подтверждён
+
 invoiced —  выставлен счёт
+
 processing —  в процессе сборки заказа
+
 shipped —  отгружен со склада
+
 delivered —  доставлен пользователю
+
 unavailable —  недоступен
+
 canceled —  отменён
